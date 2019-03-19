@@ -32,7 +32,7 @@
                                 <rect key="frame" x="121" y="242" width="172" height="53.5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="53.5" id="KbU-tN-i5G"/>
-                                    <constraint firstAttribute="width" constant="172" id="mQb-kO-EXl"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="172" id="mQb-kO-EXl"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="43"/>
                                 <color key="textColor" red="0.45138680930000002" green="0.99309605359999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -58,11 +58,14 @@
                                 <rect key="frame" x="49" y="450" width="316" height="45"/>
                                 <color key="backgroundColor" red="1" green="0.47217070922527726" blue="0.70179517899614452" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="316" id="DIo-zm-z9q"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="316" id="DIo-zm-z9q"/>
                                     <constraint firstAttribute="height" constant="45" id="MBh-Xx-8nw"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                                 <state key="normal" title="Ramdom Dice"/>
+                                <connections>
+                                    <action selector="ramdomDiceButtom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rfv-5h-Vy6"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dice4" translatesAutoresizingMaskIntoConstraints="NO" id="0aw-ys-9Ki">
                                 <rect key="frame" x="265" y="321" width="100" height="100"/>
@@ -93,6 +96,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="firstDicelmageView" destination="RGF-mI-Bdy" id="fd0-mL-apA"/>
+                        <outlet property="secondDiceImageView" destination="Ih3-Xb-Mgq" id="kHV-T6-Lp5"/>
+                        <outlet property="thirdDiceImageView" destination="E7S-a6-alF" id="3KK-RV-oea"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
