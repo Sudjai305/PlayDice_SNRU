@@ -99,7 +99,7 @@
                     <connections>
                         <outlet property="firstDicelmageView" destination="RGF-mI-Bdy" id="fd0-mL-apA"/>
                         <outlet property="secondDiceImageView" destination="Ih3-Xb-Mgq" id="kHV-T6-Lp5"/>
-                        <outlet property="thirdDiceImageView" destination="E7S-a6-alF" id="3KK-RV-oea"/>
+                        <outlet property="thirdDiceImageView" destination="0aw-ys-9Ki" id="5RH-j6-8BC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
